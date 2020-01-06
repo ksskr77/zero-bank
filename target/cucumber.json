@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3398686600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the User is on the login page",
+            "match": {
+              "location": "LoginStepDefinition.the_User_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-01T03:20:35.052Z",
+        "before": [
+          {
+            "result": {
+              "duration": 595800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Login as user",
+        "description": "",
+        "id": "user-able-to-login;login-as-user",
+        "after": [
+          {
+            "result": {
+              "duration": 2640233800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1365478500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User logs in with valid credentials",
+            "match": {
+              "location": "LoginStepDefinition.user_logs_in_with_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat com.zerobank.stepdefinition.LoginStepDefinition.account_summary_page_should_be_displayed(LoginStepDefinition.java:42)\r\n\tat ✽.Account summary page should be displayed(file:src/test/resources/features/Login.feature:8)\r\n",
+              "duration": 3907500,
+              "status": "pending"
+            },
+            "line": 8,
+            "name": "Account summary page should be displayed",
+            "match": {
+              "location": "LoginStepDefinition.account_summary_page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User able to login",
+    "description": "",
+    "id": "user-able-to-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": []
+  }
+]
